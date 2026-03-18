@@ -1,0 +1,63 @@
+Prompt #1:
+"Genera una clase DAO en Java para manejar archivos de texto con CRUD"
+
+Respuesta IA (resumen):
+Se generó una clase con métodos para guardar, leer, actualizar y eliminar datos usando archivos de texto.
+
+Uso aplicado:
+Se utilizó en UsuarioDAO para manejar la persistencia de datos.
+
+Modificación realizada:
+Se adaptó el formato para usar el delimitador "|"
+
+
+Prompt #2:
+"Cómo leer un archivo línea por línea en Java"
+
+Respuesta IA:
+Uso de BufferedReader con readLine()
+
+Uso aplicado:
+Se implementó en el método listar()
+
+Modificación:
+Se convirtió cada línea en objeto Usuario usando fromString()
+
+
+Prompt #3:
+"Cómo validar correos electrónicos en Java"
+
+Respuesta IA:
+Uso de expresiones regulares (regex)
+
+Uso aplicado:
+Clase Validador
+
+Modificación:
+Se integró validación antes de guardar usuarios
+
+
+Prompt #4:
+"Cómo implementar arquitectura por capas en Java"
+
+Respuesta IA:
+Separación en presentación, lógica, datos y entidades
+
+Uso aplicado:
+Se organizó el proyecto en paquetes
+
+Modificación:
+Se evitó mezclar lógica entre capas
+
+
+Prompt #5:
+"Cómo generar IDs automáticos en Java sin base de datos"
+
+Respuesta IA:
+Obtener el máximo ID y sumarle 1
+
+Uso aplicado:
+Método generarId() en UsuarioDAO
+
+Modificación:
+Se integró al flujo de creación de usuarios
